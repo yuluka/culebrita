@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="MAIN_PANE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MainWindow">
+   <children>
+      <Canvas fx:id="CANVAS" height="400.0" width="600.0" />
+      <Label fx:id="L_BORDER" prefHeight="400.0" prefWidth="10.0" style="-fx-background-color: black;" />
+      <Label fx:id="D_BORDER" layoutY="390.0" minHeight="10.0" prefHeight="10.0" prefWidth="600.0" style="-fx-background-color: black;" />
+      <Label fx:id="R_BORDER" layoutX="590.0" prefHeight="400.0" prefWidth="10.0" style="-fx-background-color: black;" />
+      <Label fx:id="U_BORDER" minHeight="10.0" prefHeight="10.0" prefWidth="600.0" style="-fx-background-color: black;" />
+   </children>
+</Pane>
